@@ -8,9 +8,9 @@ public class MynumberTest {
 
 	@Test
 	public void test() {
-		Mynumber ob = new Mynumber();
-		assertEquals(3421,ob.reverse(1234));
-		assertEquals(24,ob.sum(18, 6));
+		Mynumber object = new Mynumber();
+		assertEquals(3421,object.reverse(1234));
+		assertEquals(24,object.sum(18, 6));
 	}
 
 }

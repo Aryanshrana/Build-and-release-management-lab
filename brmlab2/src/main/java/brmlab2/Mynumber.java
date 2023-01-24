@@ -2,16 +2,16 @@ package brmlab2;
 
 public class Mynumber {
 	public int reverse(int num) {
-		int rev =0;
+		int Rev =0;
 		while(num > 0) {
-			rev = rev*10 + num%10;
+			Rev = Rev*10 + num%10;
 			num = num/10; 
 		}
-		return rev;
+		return Rev;
 	}
 	
-	public int sum(int a,int v) {
-		return a+v;
+	public int sum(int p,int v) {
+		return p+v;
 	}
 	
 	
